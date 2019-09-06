@@ -1,4 +1,4 @@
-# Bottle Fix
+# Bottle Fix (Fabric)
 
 Removes the source block when you fill a water bottle.
 
