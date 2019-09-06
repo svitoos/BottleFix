@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "bottlefix",
+  "version": "${version}",
+
+  "name": "BottleFix",
+  "description": "Removes the source block when you fill a water bottle.",
+  "authors": [
+    "svitoos"
+  ],
+  "contact": {
+    "homepage": "https://github.com/svitoos/BottleFix",
+    "sources": "https://github.com/svitoos/BottleFix"
+  },
+
+  "license": "MIT",
+  "icon": "assets/bottlefix/bottlefix.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "svitoos.bottlefix.BottleFixMod"
+    ]
+  },
+  "mixins": [
+    "bottlefix.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

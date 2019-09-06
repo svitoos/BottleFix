@@ -7,6 +7,7 @@
 /.project
 /.settings
 /bin
+/eclipse
 
 # IntelliJ IDEA
 /*.iml
@@ -24,4 +25,11 @@
 /run
 
 # VSCode
-/.vscode
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# fabric
+run/

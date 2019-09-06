@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "svitoos.bottlefix.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "GlassBottleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
